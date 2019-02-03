@@ -1,0 +1,81 @@
+h1, h2, h3 {
+    font-weight: bold;   
+}
+
+p {
+    font-size: medium;
+}
+
+body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url(../images/white-waves/white-waves.png);
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.main-section {
+    padding: 0 30px 15px 30px;
+    background-color: #f1f1f1;
+}
+
+.img-prof {
+    float: left;
+    margin: 6px 20px 5px 0;
+    opacity: 0.9;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #666666;
+    color: #cccccc;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: small;
+}
+
+.img-container {
+    width: 100%;
+    position: relative;
+    float: left;
+    /* margin: 5% 2.5%; */
+
+}
+
+.img-container img {
+    width: 100%;
+    opacity: .8;
+
+}
+
+.img-container h3 {
+    background-color: #3f3f3f;
+    color: #cccccc;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    line-height: 30px;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.img-container h3:hover {
+    color: #ffffff;
+}
+
+button[type=submit] { 
+    background-color:#3f3f3f;
+    color: #cccccc;
+}
+
+button[type=submit]:hover { 
+    color: #ffffff;
+}
